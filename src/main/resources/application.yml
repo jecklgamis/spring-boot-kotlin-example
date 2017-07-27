@@ -1,0 +1,10 @@
+application:
+  title: "An example Spring Boot app using Kotlin"
+
+server:
+  compression:
+    enabled: true
+
+
+logging:
+  file: logs/springboot-kotlin-example.log
