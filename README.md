@@ -1,6 +1,6 @@
 ## SpringBoot Kotlin Example
 
-[![Build Status](https://travis-ci.org/jecklgamis/springboot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/springboot-java-example)
+[![Build Status](https://travis-ci.org/jecklgamis/springboot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/springboot-kotlin-example)
 
 This is an example SpringBoot app using Kotlin. 
 

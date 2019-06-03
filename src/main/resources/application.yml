@@ -12,7 +12,7 @@ server:
     key-store-password: changeit
 
 logging:
-  file: logs/springboot-java-example.log
+  file: logs/springboot-kotlin-example.log
 
 management:
   endpoints:
