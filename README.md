@@ -1,34 +1,35 @@
-# springboot-kotlin-example
-An example Springboot app using Kotlin
+## SpringBoot Java Example
 
-[![Build Status](https://travis-ci.org/jecklgamis/springboot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/springboot-kotlin-example)
+[![Build Status](https://travis-ci.org/jecklgamis/springboot-java-example.svg?branch=master)](https://travis-ci.org/jecklgamis/springboot-java-example)
 
-* Springboot 1.5.2.RELEASE
-* Kotlin 1.1.3
-* Java 8
-* Maven 3
+This is an example SpringBoot app using Java. 
 
-# Running The App
+* Uses Jetty web container
+* Starts HTTP and HTTPs listener 
+* Enables some actuator endpoints (health, metrics)
+
+## Running The App
+Ensure you have Java 8 or later.
 ```
-mvn clean package
-java -jar target/springboot-kotlin-example.jar server src/main/resources/config.yml
-```
-
-# Running The App In Docker
-This assumes you have a working docker environment
-
-.Create docker image
-```
-docker build -t springboot-kotlin-example .
+./mvnw clean package
+java -jar target/springboot-java-example.jar
 ```
 
-Run the app inside docker
+## Running The App Using Docker
+Ensure you have a working Docker environment.
 ```
-docker run springboot-kotlin-example
+make dist image run
 ```
 
-Run bash shell inside docker (you know, to check some stuff)
+## Testing The Endpoints
+Point your browser to `http://localhost:8080` or use `curl` in command line.
+
 ```
-docker run -i -t springboot-kotlin-example /bin/bash
+curl -v  http://localhost:8080/
+curl -v -k https://localhost:8443/
 ```
+Actuator endpoints:
+* `http://localhost:8080/actuator/metrics`
+* `http://localhost:8080/actuator/health`
+
 
