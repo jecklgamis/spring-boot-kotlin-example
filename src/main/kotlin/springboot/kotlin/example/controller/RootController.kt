@@ -16,7 +16,7 @@ class RootController {
     fun example(): Map<String, Any> {
         return ImmutableMap.builder<String, Any>()
                 .put("message", "It works!")
-                .put("today", LocalDateTime.now().toString())
+                .put("today", LocalDateTime.now())
                 .build();
     }
 }
