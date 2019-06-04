@@ -1,7 +1,7 @@
 default:
 	cat ./Makefile
 dist:
-	mvn clean package
+	./mvnw clean package
 image:
 	docker build -t springboot-kotlin-example:latest .
 run:
