@@ -1,5 +1,6 @@
 application:
-  title: "An example Spring Boot app using Kotlin"
+  name: "springboot-kotlin-example"
+  description: "An example Spring Boot app using Kotlin"
 
 server:
   http:
