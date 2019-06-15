@@ -1,8 +1,8 @@
-## SpringBoot Kotlin Example
+## Spring Boot Kotlin Example
 
 [![Build Status](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example)
 
-This is an example SpringBoot app using Kotlin. 
+This is an example Spring Boot app using Kotlin. 
 
 * Uses Jetty web container
 * Starts HTTP and HTTPs listener 
