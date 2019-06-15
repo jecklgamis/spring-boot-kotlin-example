@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar target/springboot-kotlin-example.jar
+java -jar target/spring-boot-kotlin-example.jar

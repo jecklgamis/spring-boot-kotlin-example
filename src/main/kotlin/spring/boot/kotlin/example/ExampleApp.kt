@@ -1,4 +1,4 @@
-package springboot.kotlin.example
+package spring.boot.kotlin.example
 
 
 import org.eclipse.jetty.server.NetworkTrafficServerConnector

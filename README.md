@@ -1,6 +1,6 @@
 ## SpringBoot Kotlin Example
 
-[![Build Status](https://travis-ci.org/jecklgamis/springboot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/springboot-kotlin-example)
+[![Build Status](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example)
 
 This is an example SpringBoot app using Kotlin. 
 
@@ -12,7 +12,7 @@ This is an example SpringBoot app using Kotlin.
 Ensure you have Java 8 or later.
 ```
 ./mvnw clean package
-java -jar target/springboot-kotlin-example.jar
+java -jar target/spring-boot-kotlin-example.jar
 ```
 
 ## Running The App Using Docker
