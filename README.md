@@ -2,11 +2,14 @@
 
 [![Build Status](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example.svg?branch=master)](https://travis-ci.org/jecklgamis/spring-boot-kotlin-example)
 
-This is an example Spring Boot app using Kotlin. 
+This is an example Spring Boot app using Kotlin.
 
 * Uses Jetty web container
 * Starts HTTP and HTTPs listener 
 * Enables some actuator endpoints (health, metrics)
+
+A CI built Docker image is available in Docker Hub, run it using: `docker run jecklgamis/spring-boot-kotlin-example` 
+
 
 ## Running The App
 Ensure you have Java 8 or later.
