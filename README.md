@@ -8,9 +8,6 @@ This is an example Spring Boot app using Kotlin.
 * Starts HTTP and HTTPs listener 
 * Enables some actuator endpoints (health, metrics)
 
-A CI built Docker image is available in Docker Hub, run it using: `docker run -p 8080:8080 -p 8443:8443 jecklgamis/spring-boot-kotlin-example:latest` 
-
-
 ## Running The App
 Ensure you have Java 8 or later.
 ```
