@@ -2,3 +2,11 @@ language: java
 
 jdk:
   - openjdk8
+
+services:
+  - docker
+
+script:
+  - docker build -t jecklgamis/spring-boot-kotlin-example .
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker push jecklgamis/spring-boot-kotlin-example:latest
