@@ -1,5 +1,5 @@
 application:
-  name: "springboot-kotlin-example"
+  name: "spring-boot-kotlin-example"
   description: "An example Spring Boot app using Kotlin"
 
 server:
