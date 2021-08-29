@@ -67,7 +67,6 @@ jobs:
           mkdir -p src/test/kotlin/${GROUP//.//}
           cp -R .github/template-files/* .
           cp -R src/main/kotlin/spring/boot/kotlin/example/* src/main/kotlin/${GROUP//.//}/
-          cp -R src/test/kotlin/spring/boot/kotlin/example/* src/test/kotlin/${GROUP//.//}/
 
           # Clean up
           rm -rf \
