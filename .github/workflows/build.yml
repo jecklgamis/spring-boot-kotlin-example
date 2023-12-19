@@ -6,7 +6,7 @@ on:
       - v*
   pull_request:
     types: [ opened, reopened ]
-      branches: [ main ]
+    branches: [ main ]
 jobs:
   build-with-maven:
     runs-on: ubuntu-latest
