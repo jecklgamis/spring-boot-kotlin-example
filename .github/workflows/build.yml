@@ -4,8 +4,8 @@ on:
     branches: [ main ]
     tags:
       - v*
-    pull_request:
-      types: [ opened, reopened ]
+  pull_request:
+    types: [ opened, reopened ]
       branches: [ main ]
 jobs:
   build-with-maven:
