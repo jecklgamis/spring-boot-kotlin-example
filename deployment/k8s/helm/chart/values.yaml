@@ -8,7 +8,7 @@ image:
   repository: jecklgamis/spring-boot-kotlin-example
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "main"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -41,7 +41,7 @@ service:
   port: 80
 
 ingress:
-  enabled: true
+  enabled: false
   className: ""
   annotations:
      kubernetes.io/ingress.class: "istio"
