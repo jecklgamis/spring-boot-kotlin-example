@@ -37,7 +37,6 @@ Simple stateless REST API with no database layer:
 
 - **Entry point**: `ExampleApp.kt` - Spring Boot main class
 - **Controllers**: `controller/RootController.kt` and `controller/ProbeController.kt`
-- **Config**: `ObjectMapperBuilderCustomizer.kt` - Jackson JSON configuration with JavaTimeModule
 
 All controller endpoints are annotated with `@Timed` for Micrometer metrics collection.
 
