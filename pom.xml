@@ -14,6 +14,7 @@
     </parent>
 
     <properties>
+        <java.version>25</java.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <kotlin.version>2.3.0</kotlin.version>
     </properties>
