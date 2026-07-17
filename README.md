@@ -11,7 +11,7 @@ This is an example Spring Boot app using Kotlin.
 
 ## Running The App
 
-Ensure you have Java 8 or later.
+Ensure you have Java 25 or later.
 
 ```
 ./generate-keystore.sh

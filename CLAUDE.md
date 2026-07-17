@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Spring Boot 3.2.0 REST API example written in Kotlin 2.0.0-Beta2. Uses Jetty as the servlet container (not Tomcat). Exposes HTTP on port 8080 and HTTPS on port 8443.
+Spring Boot 4.1.0 REST API example written in Kotlin 2.3.0, using Java 25. Uses Jetty as the servlet container (not Tomcat). Exposes HTTP on port 8080 and HTTPS on port 8443.
 
 ## Build Commands
 
@@ -42,7 +42,7 @@ All controller endpoints are annotated with `@Timed` for Micrometer metrics coll
 
 ## Deployment
 
-- **Docker**: Multi-stage build using Ubuntu 22.04 + OpenJDK 21 JRE
+- **Docker**: Multi-stage build using Ubuntu 24.04 + OpenJDK 25 JRE
 - **Kubernetes**: Helm chart in `deployment/k8s/helm/chart/`
 - **CI/CD**: GitHub Actions workflow builds, tests, and pushes Docker images on main branch
 
